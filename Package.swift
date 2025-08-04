@@ -276,7 +276,7 @@ dependencies.append(.package(url: "https://github.com/apple/swift-crypto.git", f
 let package = Package(
     name: "Sourcery",
     platforms: [
-        .macOS(.v13),
+        .macOS(.v14),
     ],
     products: [
         // SPM won't generate .swiftmodule for a target directly used by a product,
